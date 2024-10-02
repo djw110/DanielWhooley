@@ -71,7 +71,14 @@ const Assets = {
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
 	Postcss: a('postcss.svg'),
-	PHP: a('php.svg')
+	PHP: a('php.svg'),
+	MySQL: a('mysql.png'),
+	Lua: a('lua.svg'),
+	Git: a('git.png'),
+	Jupyter: a('jupyter.png'),
+	Lucid: a('lucid.png'),
+	Tensorflow: a('tensorflow.png'),
+	Latex: a('latex.png')
 };
 
 export default Assets;
