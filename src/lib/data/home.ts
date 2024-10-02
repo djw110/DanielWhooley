@@ -11,7 +11,6 @@ export const description =
 	'Motivated Software Developer and Student of Computer Science.';
 
 export const links: Array<{ platform: Platform; link: string }> = [
-	{ platform: Platform.GitHub, link: 'https://github.com/' },
 	{
 		platform: Platform.Linkedin,
 		link: 'https://www.linkedin.com/in/daniel-whooley/'
@@ -26,4 +25,4 @@ export const links: Array<{ platform: Platform; link: string }> = [
 	},
 ];
 
-export const skills = getSkills('cpp','py','java','html','css');
+export const skills = getSkills('cpp','py','java','html','css','php');
