@@ -71,7 +71,7 @@ const Assets = {
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
 	Postcss: a('postcss.svg'),
-	Php: a('php.png')
+	Php: a('php.svg')
 };
 
 export default Assets;
