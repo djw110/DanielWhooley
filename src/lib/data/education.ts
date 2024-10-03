@@ -9,7 +9,7 @@ export const items: Array<Education> = [
 		logo: Assets.UVM,
 		name: '',
 		organization: 'University of Vermont',
-		period: { from: new Date(2023, 8), to: new Date(2027, 6) },
+		period: { from: new Date(2023, 7), to: new Date(2027, 5) },
 		shortDescription: '',
 		slug: 'dummy-education-item',
 		subjects: ['Algorithm Design & Analysis', 'Probability Theory', 'Multivariable Calculus', 'Complexity Theory',

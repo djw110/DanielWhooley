@@ -10,7 +10,7 @@ export const items: Array<Experience> = [
 		contract: ContractType.FullTime,
 		type: 'Instruction',
 		location: 'Crystal City, VA',
-		period: { from: new Date(2024,5), to: new Date(2024,8) },
+		period: { from: new Date(2024,4), to: new Date(2024,7) },
 		skills: getSkills('tensor', 'py','jupy','git'),
 		name: 'Programming Instructor',
 		color: 'orange',
