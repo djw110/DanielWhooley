@@ -78,7 +78,8 @@ const Assets = {
 	Jupyter: a('jupyter.png'),
 	Lucid: a('lucid.png'),
 	Tensorflow: a('tensorflow.png'),
-	Latex: a('latex.png')
+	Latex: a('latex.png'),
+	UVM: a('uvm.svg')
 };
 
 export default Assets;
