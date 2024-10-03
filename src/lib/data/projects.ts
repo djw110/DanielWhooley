@@ -14,7 +14,7 @@ export const items: Array<Project> = [
 		logo: Assets.Whoolio,
 		name: 'Whoolio',
 		period: {
-			from: new Date(2019,11), to: new Date()
+			from: new Date(2019,11), to: new Date(2022,11)
 		},
 		skills: getSkills('lua', 'lucid', 'git'),
 		type: 'Video Games',
@@ -51,7 +51,7 @@ export const items: Array<Project> = [
 		description:
 			'Designed and completely-programmed an online book sharing website allowing any users to upload books and add reviews to existing books in the library. Stored all book data, ratings, and reviews in a personally managed loud database using MySQL. Ensured all user entered data is sanitized and validated to ensure multiple levels of security.',
 		shortDescription:
-			'Designed and hard-coded a book-sharing website where users can post books and add reviews/comments. Created a database to store user data and calculate ratings.',
+			'Designed and hard-coded a book-sharing website where users can post books and add reviews/comments.',
 		links: [{ to: 'https://dwhooley.w3.uvm.edu/cs1080/final/', label: 'CATBooks' }],
 		logo: Assets.CATs,
 		name: 'CATBooks',
