@@ -4,49 +4,22 @@ import { ContractType, type Experience } from '../types';
 
 export const items: Array<Experience> = [
 	{
-		slug: 'open-sourcer',
-		company: 'Self-employed',
-		description: 'Creating awesome tools for developers.',
-		contract: ContractType.SelfEmployed,
-		type: 'Software Development',
+		slug: 'prog-instructor',
+		company: 'Amazon, Inc. & iDTech, Inc.',
+		description: '\tTaught Python programming to high school students in project-based courses held at Amazon HQ in Crystal City, VA.\n' +
+			'\tDemonstrated and guided students through the use of various machine learning tools like TensorFlow to implement models like ChatGPT into their programs.\n' +
+			'\tCreated lesson plans and helped struggling students understand core computer concepts.\n' +
+			'\tAided students in debugging code and taught them valuable programming practices. Ensured they were prepared to develop a unique final project to present at the end of the course.\n',
+		contract: ContractType.FullTime,
+		type: 'Instruction',
 		location: 'Home',
 		period: { from: new Date() },
 		skills: getSkills('ts', 'js'),
-		name: 'Open Source Developer',
-		color: 'red',
-		links: [],
-		logo: Assets.Unknown,
-		shortDescription: 'Creating awesome tools for developers.'
-	},
-	{
-		slug: 'software-freelance',
-		company: 'Self-employed',
-		description: 'Creating awesome applications for customers.',
-		contract: ContractType.Freelance,
-		type: 'Software Development',
-		location: 'Home',
-		period: { from: new Date() },
-		skills: getSkills('svelte', 'ts', 'sass', 'css', 'html', 'js'),
-		name: 'Freelancer',
-		color: 'blue',
-		links: [],
-		logo: Assets.Unknown,
-		shortDescription: 'Creating awesome applications for customers.'
-	},
-	{
-		slug: 'software-freelance-junior',
-		company: 'Self-employed',
-		description: 'Creating awesome applications for customers.',
-		contract: ContractType.Freelance,
-		type: 'Software Development',
-		location: 'Home',
-		period: { from: new Date(2022, 0, 1), to: new Date() },
-		skills: getSkills('css', 'html', 'js'),
-		name: 'Junior Freelancer',
+		name: 'Programming Instructor',
 		color: 'green',
 		links: [],
 		logo: Assets.Unknown,
-		shortDescription: 'Creating awesome applications for customers.'
+		shortDescription: 'Teaching high-schoolers Python and Machine Learning.'
 	}
 ];
 
