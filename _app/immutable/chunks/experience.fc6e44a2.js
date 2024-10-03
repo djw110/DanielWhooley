@@ -1,0 +1,5 @@
+import{A as e}from"./UIcon.a26a15f7.js";import{g as t}from"./skills.49cef646.js";import{C as n}from"./types.1ebf2f37.js";const i=[{slug:"prog-instructor",company:"Amazon, Inc. & iDTech, Inc.",description:`	Taught Python programming to high school students in project-based courses held at Amazon HQ in Crystal City, VA.
+	Demonstrated and guided students through the use of various machine learning tools like TensorFlow to implement models like ChatGPT into their programs.
+	Created lesson plans and helped struggling students understand core computer concepts.
+	Aided students in debugging code and taught them valuable programming practices. Ensured they were prepared to develop a unique final project to present at the end of the course.
+`,contract:n.FullTime,type:"Instruction",location:"Home",period:{from:new Date},skills:t("ts","js"),name:"Programming Instructor",color:"green",links:[],logo:e.Unknown,shortDescription:"Teaching high-schoolers Python and Machine Learning."}],a="Experience";export{i,a as t};
