@@ -7,7 +7,7 @@ export const items: Array<Project> = [
 		slug: 'roblox-games',
 		color: 'red',
 		description:
-			'Designed, programmed, and managed the production of several multiplayer video games in partnership with ROBLOX. Implemented databases to store player data, and managed real money purchases on the web using LuaU. Organized several teams of developers; oversaw and managed all aspects of development from 3D modelling to graphic design. These games, still running today, have generated thousands of dollars in personal revenue and have garnered hundreds of thousands of players.',
+			'Created and managed a video game development group named "Whoolio." Designed, programmed, and managed the production of several multiplayer video games in partnership with ROBLOX. Implemented databases to store player data, and managed real money purchases on the web using LuaU. Organized several teams of developers; oversaw and managed all aspects of development from 3D modelling to graphic design. These games, still running today, have generated thousands of dollars in personal revenue and have garnered hundreds of thousands of players.',
 		shortDescription:
 			'Created online video games on ROBLOX which generated several thousands of dollars and tens of thousands of players.',
 		links: [{ to: 'https://www.roblox.com/groups/5646344/Whoolio#!/about', label: 'Studio Hub' }],
@@ -17,7 +17,7 @@ export const items: Array<Project> = [
 			from: new Date(2019,11), to: new Date()
 		},
 		skills: getSkills('lua', 'lucid', 'git'),
-		type: 'Video Game',
+		type: 'Video Games',
 		screenshots: [
 			{
 				label: 'screen 1',

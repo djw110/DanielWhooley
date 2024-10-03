@@ -11,7 +11,7 @@ export const items: Array<Experience> = [
 		type: 'Instruction',
 		location: 'Crystal City, VA',
 		period: { from: new Date(2024,5), to: new Date(2024,8) },
-		skills: getSkills('ts', 'js'),
+		skills: getSkills('tensor', 'py','jupy','git'),
 		name: 'Programming Instructor',
 		color: 'orange',
 		links: [],
