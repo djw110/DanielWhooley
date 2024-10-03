@@ -10,10 +10,10 @@ export const items: Array<Experience> = [
 		contract: ContractType.FullTime,
 		type: 'Instruction',
 		location: 'Crystal City, VA',
-		period: { from: new Date() },
+		period: { from: new Date(2024,5), to: new Date(2024,8) },
 		skills: getSkills('ts', 'js'),
 		name: 'Programming Instructor',
-		color: 'green',
+		color: 'orange',
 		links: [],
 		logo: Assets.Amazon,
 		shortDescription: 'Teaching high-schoolers Python and Machine Learning.'

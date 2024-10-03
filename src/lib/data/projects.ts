@@ -4,36 +4,20 @@ import type { Project } from '../types';
 
 export const items: Array<Project> = [
 	{
-		slug: 'slick-portfolio-angular',
-		color: '#5e95e3',
+		slug: 'roblox-games',
+		color: 'red',
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'Designed, programmed, and managed the production of several multiplayer video games in partnership with ROBLOX. Implemented databases to store player data, and managed real money purchases on the web using LuaU. Organized several teams of developers; oversaw and managed all aspects of development from 3D modelling to graphic design. These games, still running today, have generated thousands of dollars in personal revenue and have garnered hundreds of thousands of players.',
 		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
-		logo: Assets.Unknown,
-		name: 'Slick Portfolio',
+			'Created online video games on ROBLOX which generated several thousands of dollars and tens of thousands of players.',
+		links: [{ to: 'https://www.roblox.com/groups/5646344/Whoolio#!/about', label: 'Studio Hub' }],
+		logo: Assets.Whoolio,
+		name: 'Whoolio',
 		period: {
-			from: new Date()
+			from: new Date(2019,11), to: new Date()
 		},
-		skills: getSkills('angular', 'ts', 'tailwind'),
-		type: 'Website Template'
-	},
-	{
-		slug: 'slick-portfolio-svelte',
-		color: '#ff3e00',
-		description:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
-		shortDescription:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
-		logo: Assets.Svelte,
-		name: 'Slick Portfolio',
-		period: {
-			from: new Date()
-		},
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
-		type: 'Website Template',
+		skills: getSkills('lua', 'lucid', 'git'),
+		type: 'Video Game',
 		screenshots: [
 			{
 				label: 'screen 1',

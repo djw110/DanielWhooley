@@ -80,7 +80,8 @@ const Assets = {
 	Tensorflow: a('tensorflow.png'),
 	Latex: a('latex.png'),
 	UVM: a('uvm.svg'),
-	Amazon: a('amazon.jpg')
+	Amazon: a('amazon.jpg'),
+	Whoolio: a('whoolio.png')
 };
 
 export default Assets;
