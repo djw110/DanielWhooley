@@ -72,7 +72,7 @@ const Assets = {
 	Ruvy: a('ruvy.svg'),
 	Postcss: a('postcss.svg'),
 	PHP: a('php.svg'),
-	MySQL: a('mysql.png'),
+	MySQL: a('mySQLlogo.png'),
 	Lua: a('lua.svg'),
 	Git: a('git.png'),
 	Jupyter: a('jupyter.png'),
