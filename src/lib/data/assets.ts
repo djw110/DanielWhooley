@@ -79,7 +79,8 @@ const Assets = {
 	Lucid: a('lucid.png'),
 	Tensorflow: a('tensorflow.png'),
 	Latex: a('latex.png'),
-	UVM: a('uvm.svg')
+	UVM: a('uvm.svg'),
+	Amazon: a('amazon.jpg')
 };
 
 export default Assets;
