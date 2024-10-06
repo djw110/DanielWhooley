@@ -14,6 +14,15 @@
 
 	let result: Array<Education> = items;
 
+	const from = `${getMonthName(
+    		education.period.from.getMonth()
+    )} ${education.period.from.getFullYear()}`;
+    const to = education.period.to
+    	? `${getMonthName(education.period.to.getMonth())} ${education.period.to.getFullYear()}`
+    	: 'Present';
+
+    const period = `${from} - ${to}`;
+
 	const onSearch = (ev: CustomEvent<{ search: string }>) => {
 		const s = ev.detail.search;
 
@@ -71,9 +80,9 @@
 									</div>
 									<CardDivider />
 									<div class="row items-center gap-2">
-										<UIcon icon="i-carbon-time" />
-										{computeExactDuration(education.period.from, education.period.to)}
-									</div>
+                                    	<UIcon icon="i-carbon-calendar" classes="text-1.25em" />
+                                    	{period}
+                                    </div>
 									<CardDivider />
 								</div>
 								<div class="row flex-wrap gap-1">
