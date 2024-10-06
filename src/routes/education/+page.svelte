@@ -7,7 +7,7 @@
 
 	import { title, items } from '@data/education';
 	import type { Education } from '$lib/types';
-	import { computeExactDuration, getTimeDiff } from '$lib/utils';
+	import { computeExactDuration, getMonthName, getTimeDiff } from '$lib/utils';
 	import CardDivider from '$lib/components/Card/CardDivider.svelte';
 
 	let search = '';
@@ -71,8 +71,8 @@
 									</div>
 									<CardDivider />
 									<div class="row items-center gap-2">
-										<UIcon icon="i-carbon-z" />
-										{computeExactDuration(education.period.from, education.period.to)}
+										<UIcon icon="i-carbon-time" />
+										{education.period.to.getFullYear())}
 									</div>
 									<CardDivider />
 								</div>
