@@ -72,7 +72,7 @@
 									<CardDivider />
 									<div class="row items-center gap-2">
 										<UIcon icon="i-carbon-time" />
-										{education.period.to.getFullYear())}
+										{education.period.to.getFullYear()}
 									</div>
 									<CardDivider />
 								</div>
