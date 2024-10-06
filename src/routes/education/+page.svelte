@@ -7,7 +7,7 @@
 
 	import { title, items } from '@data/education';
 	import type { Education } from '$lib/types';
-	import { computeExactDuration, getMonthName, getTimeDiff } from '$lib/utils/helpers';
+	import { computeExactDuration, getTimeDiff } from '$lib/utils';
 	import CardDivider from '$lib/components/Card/CardDivider.svelte';
 
 	let search = '';
