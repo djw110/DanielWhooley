@@ -7,7 +7,7 @@
 
 	import { title, items } from '@data/education';
 	import type { Education } from '$lib/types';
-	import { computeExactDuration, getMonthName, getTimeDiff } from '$lib/utils';
+	import { computeExactDuration, getTimeDiff } from '$lib/utils';
 	import CardDivider from '$lib/components/Card/CardDivider.svelte';
 
 	let search = '';
@@ -42,15 +42,6 @@
 				class="w-[0.5px] hidden lg:flex top-0 bottom-0 py-50px bg-[var(--border)] absolute rounded"
 			/>
 			{#each result as education, index (education.slug)}
-
-			from = `${getMonthName(education.period.from.getMonth())} ${education.period.from.getFullYear()}`;
-            to = education.period.to
-            		? `${getMonthName(education.period.to.getMonth())} ${education.period.to.getFullYear()}`
-            		: 'Present';
-
-            period = `${from} - ${to}`;
-
-
 				<div
 					class={`flex ${
 						index % 2 !== 0 ? 'flex-row' : 'flex-row-reverse'
@@ -80,8 +71,8 @@
 									</div>
 									<CardDivider />
 									<div class="row items-center gap-2">
-										<UIcon icon="i-carbon-calendar" />
-										{period}
+										<UIcon icon="i-carbon-z" />
+										{computeExactDuration(education.period.from, education.period.to)}
 									</div>
 									<CardDivider />
 								</div>
