@@ -71,7 +71,7 @@
 									</div>
 									<CardDivider />
 									<div class="row items-center gap-2">
-										<UIcon icon="i-carbon-time" />
+										<UIcon icon="i-carbon-calendar" />
 										{education.period.to.getFullYear()}
 									</div>
 									<CardDivider />
