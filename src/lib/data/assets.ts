@@ -84,7 +84,8 @@ const Assets = {
 	Whoolio: a('whoolio.png'),
 	CATs: a('cats.png'),
 	Linux: a('linux.png'),
-	Pi: a('raspberrypi.svg')
+	Pi: a('raspberrypi.svg'),
+	DW: a('dw.png')
 };
 
 export default Assets;
