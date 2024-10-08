@@ -8,7 +8,7 @@ export const name = 'Daniel';
 export const lastName = 'Whooley';
 
 export const description =
-	'Motivated Software Developer and Student of Computer Science.';
+	'Motivated Software Developer and Student of Computer Science';
 
 export const links: Array<{ platform: Platform; link: string }> = [
 	{
