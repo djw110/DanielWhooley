@@ -82,7 +82,8 @@ const Assets = {
 	UVM: a('uvm.svg'),
 	Amazon: a('amazon.jpg'),
 	Whoolio: a('whoolio.png'),
-	CATs: a('cats.png')
+	CATs: a('cats.png'),
+	Linux: a('linux.png')
 };
 
 export default Assets;
