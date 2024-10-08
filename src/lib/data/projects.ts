@@ -11,7 +11,7 @@ export const items: Array<Project> = [
 		shortDescription:
 			'Built and programmed a smart guitar pedal that uses neural networks to emulate other guitar pedals.',
 		links: [{ to: 'https://youtube.com', label: 'Product Demo' }],
-		logo: Assets.Linux,
+		logo: Assets.Pi,
 		name: 'PiPedal',
 		period: {
 			from: new Date(2024,8), to: new Date()

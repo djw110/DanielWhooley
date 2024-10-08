@@ -83,7 +83,8 @@ const Assets = {
 	Amazon: a('amazon.jpg'),
 	Whoolio: a('whoolio.png'),
 	CATs: a('cats.png'),
-	Linux: a('linux.png')
+	Linux: a('linux.png'),
+	Pi: a('raspberrypi.svg')
 };
 
 export default Assets;
