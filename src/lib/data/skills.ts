@@ -112,7 +112,7 @@ export const items = [
 		description: 'LaTeX is a software system for typesetting documents. LaTeX markup describes the content and layout of the document, as opposed to the formatted text found in WYSIWYG word processors like Google Docs, LibreOffice Writer and Microsoft Word.',
 		logo: Assets.Latex,
 		name: 'LaTeX',
-		category: 'pro-lang'
+		category: 'markup-style'
 	}),
 	defineSkill({
 		slug: 'lucid',
